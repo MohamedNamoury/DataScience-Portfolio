@@ -1,34 +1,40 @@
 # Data science portofolio
-## [Resume](https://drive.google.com/file/d/1xzZ-ODQgKgDmlklIP3xmCJn3x76bHdLS/view?usp=sharing) | [LinkedIn](https://www.linkedin.com/in/hassan-essam)
+## [Resume](https://drive.google.com/file/d/1wELbZjX8QMXelwpULJxIkwbj-Nhmnbgl/view?usp=sharing) | [LinkedIn](https://www.linkedin.com/in/mohammednamory/) | [Kaggle](https://www.kaggle.com/mohammednamory)
 ### Macine Learning:
- - [**Pen-Based Recognition of Handwritten Digits:**](https://github.com/hassanmido22/Data-Science-Portofolio/tree/main/Machine%20learning/Classification/Pendigit%20Classification) Classify the handwritten digits using classical machine learning models using Decision tree, SVM, MLP, RandomForest and finall having a stacking of all of these previous models, The winning model was the stacking approach which achived 0.981 accuracy.
-	-	**Dataset** [Used Pen-Based Recognition of handwritten digits dataset](https://datahub.io/machine-learning/pendigits)
-	-	**Tools:** Sklearn , Matplotlib , Numpy , Pandas
- - [**IOT Botnet Attack Detection:**](https://github.com/hassanmido22/Data-Science-Portofolio/tree/main/Machine%20learning/Classification/Network%20Intrusion%20Detection) Multiclass classification model which predicts whether the case is normal or a specific type of attack, implementing two predictive modeling solutions one static and another dynamaic that adapts through time using Kafka server
+ - [**Intrusion detection:**](https://www.kaggle.com/mohammednamory/is-this-an-intrusion) Classification problem to detect wether it's an attack, XGBoost model was trained and hyper-tuned but it wasn't enough to score high accuracy and the problem was tackling post predicition with changing the wegihts manualy to score better f1-score as it is the meant metric in our case.
+	-	**Dataset** [University  of  Newbrunswick  DDoS2019  dataset](https://www.unb.ca/cic/datasets/ddos-2019.html)
+	-	**Tools:** Sklearn, Matplotlib, Numpy, Pandas
+ - [**IOT Botnet Attack Detection:**](https://github.com/MohamedNamoury/Botnet-and-Intrustion-Detection-over-Kafka-stream) Multiclass classification model which predicts whether the case is normal or a specific type of attack, implementing two predictive modeling solutions one static and another dynamaic that adapts through time using Kafka server
 	- **Dataset** [Used IOT Botnet Attack detection dataset](https://archive.ics.uci.edu/ml/datasets/detection_of_IoT_botnet_attacks_N_BaIoT)
-	-	**Tools:** Kafka-python, Sklearn , Matplotlib , Numpy , Pandas.
-- [**DDos Attack Detection:**](https://github.com/hassanmido22/Data-Science-Portofolio/tree/main/Machine%20learning/Classification/DDoS%20Attack%20Detection) An ensemble of three different algorithms is combined  together  such  that  each  one  handles a  different stage  of  the  problem  on  which  it  performs  bes
-	- **Dataset** [University  of  Newbrunswick  DDoS2019  dataset](https://www.unb.ca/cic/datasets/ddos-2019.html)
-	-	**Tools:** Sklearn , Matplotlib , Numpy , Pandas.
+	-	**Tools:** Kafka-python, Sklearn, Matplotlib, Numpy, Pandas
+- [**Crop Yield Predictions Using Sentinel 2 Images:**](https://www.kaggle.com/mohammednamory/crop-yield-predictions-using-sentinel-2-images) Regression problem in field of agriculture by using sentinel-2 images, climate and soil data for set of fields in Kenya to predict the yield estimation
+	- **Dataset** [Cigar Crop Yield Prediction dataset](https://zindi.africa/competitions/cgiar-crop-yield-prediction-challenge/data)
+	-	**Tools:** Sklearn, Seaborn, Numpy, Pandas
+- [**Crop Classifcation Using Sentinel 2 Images:**](https://www.kaggle.com/mohammednamory/crop-classification-model) Multiclass real world problem to classifiy the maize fields in Kenya, Data was loaded and some features were extracted to help with identifing every field and it's own different characterstics two models were trained and ensembled their results together
+	- **Dataset** [Radiant Spot The Crop dataset](https://zindi.africa/competitions/radiant-earth-spot-the-crop-challenge/data)
+	-	**Tools:** Sklearn, Seaborn, Numpy, Pandas, tiff		
 ### Natural Language processing:
- -  [**Sentiment analysis with chatbot:**](https://github.com/hassanmido22/Data-Science-Portofolio/tree/main/Natural%20Language%20Processing/Sentiment%20analysis%20with%20chatbot) simple chatbot that users put their review these reviews are passed to a sentiment analysis model to classify whether it is a positive or negative feedback.
-	 -	**Dataset:** Used twitter dataset on kaggle to train the models on
-	- **Tools:** NLTK, Sklearn , matplotlib , numpy , pandas
- -  [**Books Categories Classification:**](https://github.com/hassanmido22/Text-Classification) Multiclassification model is simply to classify books depending on their category using multiple classifiers with end to end preprocessing pipeline, it resulted in 90% accuracy using SVM 
+ -  [**Aabic Tweets Sentiment Analysis:**](https://www.kaggle.com/mohammednamory/aabic-tweets-sentiment-analysis) simple model was trained on arabic tweets do sentiment analysis  to classify whether it is a positive or negative feedback.
+	 -	**Dataset:** Arabert
+	- **Tools:** NLTK, Sklearn, matplotlib, numpy, pandas
+-  [**Quora Question Pairs:**](https://github.com/MohamedNamoury/NLP/tree/main/Quora%20Question%20Pairs) This project was a trial to solved the famous problem on Quora website for duplicated Questions, In this project there are two different piplines one for clustering and the other for classification.
+	 -	**Dataset:** [Quora Questions Pairs](https://www.kaggle.com/c/quora-question-pairs/data)
+	- **Tools:** NLTK, Sklearn, matplotlib, numpy, pandas, Gensim
+ -  [**Books Categories Classification:**](https://github.com/MohamedNamoury/NLP/tree/main/Classifications) Multiclassification model is simply to classify books depending on their Author using multiple classifiers with end to end preprocessing pipeline, it resulted in 95% accuracy using SVM 
 	- **Dataset** Used Gutenburg books which used from NLTK library
-	-	**Tools:** NLTK , Sklearn , Matplotlib , Numpy , Pandas
--	[**Books Categories Clustering:**](https://github.com/hassanmido22/Data-Science-Portofolio/tree/main/Natural%20Language%20Processing/Books%20text%20Clustering) Clustering model is simply to cluster books categories depending on their text content using Kmeans, Hirarical Clustering and Gaussian Mixture with end to end preprocessing pipeline.
+	-	**Tools:** NLTK, Sklearn, Matplotlib, Numpy, Pandas
+-	[**Books Categories Clustering:**](https://github.com/MohamedNamoury/NLP/tree/main/Clustering) Clustering model is simply to cluster books categories depending on their genres and authors using Kmeans, Hirarical Clustering and Gaussian Mixture with end to end preprocessing pipeline.
 	- **Dataset** Used Gutenburg books which used from NLTK library
-	-	**Tools:** NLTK , Gensim, Sklearn , Matplotlib , Numpy , Pandas.
+	-	**Tools:** NLTK, Gensim, Sklearn, Matplotlib, Numpy, Pandas.
 
 ### Computer Vision:
- - [**English Characters Classification:**](https://github.com/hassanmido22/Data-Science-Portofolio/tree/main/Computer%20Vision/Characters%20Classification) Binary and Multiclass classification models which classifies very simmilar characters which are [**Q, O, G, 8**] the binary model classify between **O, Q** and the other binary model classify between **G, 8** whether the multiclassification model classifies between all the four characters.
-	- **Dataset** [Used Chars74K dataset](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/)
-	-	**Tools:** OpenCv, SkImage, Sklearn , Matplotlib , Numpy , Pandas.
--	[**Texture Image Comparison:**](https://github.com/hassanmido22/Data-Science-Portofolio/tree/main/Computer%20Vision/Characters%20Classification) Texture Images matching using two methods, Manually with CrossCorrelation, Covolution and sum of squared, and the other method using Multilayer perceptron model with feature engineering.
-	- **Dataset** [Kylberg Texture Dataset](https://www.cb.uu.se/~gustaf/texture/)
-	-	**Tools:** OpenCv, SkImage, Sklearn , Matplotlib , Numpy , Pandas.
--	[**Number of planet leaves prediction:**](https://github.com/hassanmido22/Data-Science-Portofolio/tree/main/Computer%20Vision/Number%20of%20planet%20leaves%20prediction) Predicting the number of planet leaves with transfer learning using VGG16, added some layers, regularization and dadta augmentation.
-	- **Dataset** [Leaf counting dataset](https://vision.eng.au.dk/leaf-counting-dataset/)
-	-	**Tools:** Tensorflow, OpenCv, SkImage, Sklearn , Matplotlib , Numpy , Pandas.
- 
+ - [**Text-Image Steganography using Cycle-GANs:**](https://www.kaggle.com/mohammednamory/stegcycgans) This was reasearch project trying to use CycleGANs into steganography field by modifing on of the domain to be text generated into RGB image and the other domain is the cover image. 
+	- **Dataset** [Massachusetts Buildings Dataset](https://www.kaggle.com/mohammednamory/stegcycgans/data)
+	-	**Tools:** Tensorflow, Keras, Pandas.
+ - [**Darts Score:**](https://github.com/MohamedNamoury/Dart_Score) Object detection model tackling darts detection in real time using YOLOv4 
+	- **Dataset** [My team Dataset](https://github.com/AsmaaSobhyy/Darts_dataset)
+	-	**Tools:** OpenCv, SkImage, Matplotlib, Numpy, Pandas, Keras
+#### Minor Notebooks For Learning 
+- [**Applied Machine Learning:**](https://github.com/MohamedNamoury/Applied-Machine-Learning) This is learning notebooks in Python using different techinques in classification and clustering, this was the entry point by applying different techniques on small datasets.
+           - **Tools:** Pandas, Sklearn, Matplotlib. 
+- [**Applied Data Science :**](https://github.com/MohamedNamoury/Applied-Data-Science) This is learning notebooks in R using different techinques in classification and clustering, this was the entry point by applying different techniques on small datasets.
