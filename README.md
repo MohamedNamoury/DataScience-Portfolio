@@ -9,10 +9,7 @@
 	-	**Tools:** Kafka-python, Sklearn, Matplotlib, Numpy, Pandas
 - [**Crop Yield Predictions Using Sentinel 2 Images:**](https://www.kaggle.com/mohammednamory/crop-yield-predictions-using-sentinel-2-images) Regression problem in field of agriculture by using sentinel-2 images, climate and soil data for set of fields in Kenya to predict the yield estimation
 	- **Dataset** [Cigar Crop Yield Prediction dataset](https://zindi.africa/competitions/cgiar-crop-yield-prediction-challenge/data)
-	-	**Tools:** Sklearn, Seaborn, Numpy, Pandas
-- [**Crop Classifcation Using Sentinel 2 Images:**](https://www.kaggle.com/mohammednamory/crop-classification-model) Multiclass real world problem to classifiy the maize fields in Kenya, Data was loaded and some features were extracted to help with identifing every field and it's own different characterstics two models were trained and ensembled their results together
-	- **Dataset** [Radiant Spot The Crop dataset](https://zindi.africa/competitions/radiant-earth-spot-the-crop-challenge/data)
-	-	**Tools:** Sklearn, Seaborn, Numpy, Pandas, tiff		
+	-	**Tools:** Sklearn, Seaborn, Numpy, Pandas		
 ### Natural Language processing:
  -  [**Aabic Tweets Sentiment Analysis:**](https://www.kaggle.com/mohammednamory/aabic-tweets-sentiment-analysis) simple model was trained on arabic tweets do sentiment analysis  to classify whether it is a positive or negative feedback.
 	 -	**Dataset:** Arabert
@@ -28,6 +25,9 @@
 	-	**Tools:** NLTK, Gensim, Sklearn, Matplotlib, Numpy, Pandas.
 
 ### Computer Vision:
+- [**Crop Classifcation Using Sentinel 2 Images:**](https://www.kaggle.com/mohammednamory/crop-classification-model) Multiclass real world problem to classifiy the maize fields in Kenya, Data was loaded and some features were extracted to help with identifing every field and it's own different characterstics two models were trained and ensembled their results together
+	- **Dataset** [Radiant Spot The Crop dataset](https://zindi.africa/competitions/radiant-earth-spot-the-crop-challenge/data)
+	-	**Tools:** Sklearn, Seaborn, Numpy, Pandas, tiff
  - [**Text-Image Steganography using Cycle-GANs:**](https://www.kaggle.com/mohammednamory/stegcycgans) This was reasearch project trying to use CycleGANs into steganography field by modifing on of the domain to be text generated into RGB image and the other domain is the cover image. 
 	- **Dataset** [Massachusetts Buildings Dataset](https://www.kaggle.com/mohammednamory/stegcycgans/data)
 	-	**Tools:** Tensorflow, Keras, Pandas.
