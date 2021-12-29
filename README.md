@@ -28,8 +28,9 @@
 - [**Crop Classifcation Using Sentinel 2 Images:**](https://www.kaggle.com/mohammednamory/crop-classification-model) Multiclass real world problem to classifiy the maize fields in Kenya, Data was loaded and some features were extracted to help with identifing every field and it's own different characterstics two models were trained and ensembled their results together
 	- **Dataset** [Radiant Spot The Crop dataset](https://zindi.africa/competitions/radiant-earth-spot-the-crop-challenge/data)
 	-	**Tools:** Sklearn, Seaborn, Numpy, Pandas, tiff
- - [**Text-Image Steganography using Cycle-GANs:**](https://www.kaggle.com/mohammednamory/stegcycgans) This was reasearch project trying to use CycleGANs into steganography field by modifing on of the domain to be text generated into RGB image and the other domain is the cover image. 
+ - [**Text-Image Steganography using Cycle-GANs:**](https://www.kaggle.com/mohammednamory/stegcycgans) This was reasearch project trying to use CycleGANs into steganography field by modifing on of the domain to be text generated into RGB image and the other domain is the cover image. For Further reading you can check our attached paper.
 	- **Dataset** [Massachusetts Buildings Dataset](https://www.kaggle.com/mohammednamory/stegcycgans/data)
+	- **Paper** [Text-Image Steganography using Cycle-GANs](https://drive.google.com/file/d/1YEg6tCF9mqyLxoozEF_lXMAVCKn0rqu6/view?usp=sharing)
 	-	**Tools:** Tensorflow, Keras, Pandas.
  - [**Darts Score:**](https://github.com/MohamedNamoury/Dart_Score) Object detection model tackling darts detection in real time using YOLOv4 
 	- **Dataset** [My team Dataset](https://github.com/AsmaaSobhyy/Darts_dataset)
