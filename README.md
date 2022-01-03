@@ -1,5 +1,5 @@
 # Data science portofolio
-## [Resume](https://drive.google.com/file/d/1LC4hJ1SYQ-TpJvaNlcqUAI6QaoPULWzH/view?usp=sharing) | [LinkedIn](https://www.linkedin.com/in/mohammednamory/) | [Kaggle](https://www.kaggle.com/mohammednamory)
+## [Resume](https://drive.google.com/file/d/1PFWZirBo6BmwpG9x54vzXtsCghK6LLUt/view?usp=drivesdk) | [LinkedIn](https://www.linkedin.com/in/mohammednamory/) | [Kaggle](https://www.kaggle.com/mohammednamory)
 ### Macine Learning:
  - [**Intrusion detection:**](https://www.kaggle.com/mohammednamory/is-this-an-intrusion) Classification problem to detect wether it's an attack, XGBoost model was trained and hyper-tuned but it wasn't enough to score high accuracy and the problem was tackling post predicition with changing the wegihts manualy to score better f1-score as it is the meant metric in our case.
 	-	**Dataset** [University  of  Newbrunswick  DDoS2019  dataset](https://www.unb.ca/cic/datasets/ddos-2019.html)
